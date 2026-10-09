@@ -1,0 +1,23 @@
+- customerID - Id do cliente - String
+- gender - Genero do cliente(Male, Famale) - Categórico 2 tipos
+- SeniorCitizen -    Pessoa idosa - Boolean
+- Partner - Tem parceiro?(Marido ou Esposa) - Boolean
+- Dependents - Indica se o cliente possui filhos - Boolean  
+- tenure - Tempo de relacionamento do cliente em meses - Int
+- PhoneService  Indica se o cliente possui serviços de telefonia- bolean(Tratar: No, no, Yes, yes)   
+- MultipleLines - Indica se o cliente possui mais de uma linha- bolean    ( No phone service, transformar em no)
+- InternetService - Indica o tipo de serviço  Internet(DSL, No, Fiber optic) - Categórico 3 tipos
+- OnlineSecurity -  Indica se tem pacote ou não de segunraça na internet do plano. - bolean    ( No internet service, transformar em no)
+- OnlineBackup - Indica se tem backup online ou não. - bolean    ( No internet service, transformar em no)
+- DeviceProtection - Indica se tem proteção do aparelho ou não. - bolean    ( No internet service, transformar em no)
+- TechSupport - Indica se tem suporte de internet ou não. - bolean    ( No internet service, transformar em no)
+- streamingTV  -   Indica se existe serviço de tv- Bolean  
+- streamingMovies  -  Indica se existe serviço de filmes - Bolean       
+- Contract - Tipo de contrat0(One year, Month-to-month, Two year) - Categórico  3 tipos
+- PaperlessBilling  - indica se a fatura é digital ou não  - Bolean  
+- PaymentMethod - Método de Pagamento( Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic)) - Categórico 4 tipos
+- MonthlyCharges - Pagamento por mês, valor da parcela ou plano contratato dividido por meses. - Float
+- TotalCharges - Total pago no tempo contratato. Valor não bate com o número de meses pelo fato de haver descontos, promoções ou boletos atrasados ao passar dos meses. -  Float 
+- Churn - Mostra se o cliente cancelou ou não a assinatura. - Boolean
+- CustomerFeedback - Cliente da seu feedback da assinatura, comentando pontos bons ou ruins da assinatura q ele realizou. - String
+- MonthlyIncome - Renda mensal do usuário - Float
